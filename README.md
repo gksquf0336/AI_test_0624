@@ -285,15 +285,15 @@ print("Hello, World!")
     print(my_list[-1]) # 올바름 (뒤에서 첫 번째)
     ```
   - 리스트 복사 주의
-```
-list1 = [1, 2, 3]
-list2 = list1        # 참조 복사 (같은 메모리)
-list2.append(4)
-print(list1)         # [1, 2, 3, 4] - 원본도 변경됨!
-```
+    ```
+    list1 = [1, 2, 3]
+    list2 = list1        # 참조 복사 (같은 메모리)
+    list2.append(4)
+    print(list1)         # [1, 2, 3, 4] - 원본도 변경됨!
+    ```
 
-# 올바른 복사 방법
-list2 = list1.copy()  # 또는 list1[:]
+##### 올바른 복사 방법
+- list2 = list1.copy()  # 또는 list1[:]
 
 반복문과 조건문
 무한 루프 주의
