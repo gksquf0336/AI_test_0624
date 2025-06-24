@@ -318,6 +318,11 @@ print("Hello, World!")
      if x == 10:  # 올바름! 비교 연산자 사용
         print("x는 10")
      ```
+
+![image](https://github.com/user-attachments/assets/4e030711-51ed-4558-84b2-13fb25f9c9c2)
+* 간단한 조건문 예시
+* 사람의 키를 입력 받고 특정 값과 비교한 후 출력
+* 
  
 ## 3.  data structure / data sciencs
 
