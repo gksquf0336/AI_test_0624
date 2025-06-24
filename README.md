@@ -309,14 +309,15 @@ print("Hello, World!")
        count += 1  # 카운터 증가 잊지 말기!
    ```
 
-조건문에서 할당 연산자 실수
-x = 5
-if x = 10:  # 에러! 할당 연산자 사용
-    print("x는 10")
-
-if x == 10:  # 올바름! 비교 연산자 사용
-    print("x는 10")
-
+   - 조건문에서 할당 연산자 실수
+     ```
+     x = 5
+     if x = 10:  # 에러! 할당 연산자 사용
+        print("x는 10")
+     
+     if x == 10:  # 올바름! 비교 연산자 사용
+        print("x는 10")
+     ```
  
 ## 3.  data structure / data sciencs
 
