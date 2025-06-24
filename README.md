@@ -2,7 +2,7 @@
 ## 목차
 1. [GitHub, Markdown, Colab](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#1-about-github-markdown-colab)
 2. [Python3](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#2-about-python3)
-3. [data structure / data sciencs]()
+3. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)
 4. [Machine Learning]()
 5. [OpenCV]()
 6. [CNN(Convolution Neural Network)]()
