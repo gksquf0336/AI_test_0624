@@ -267,8 +267,8 @@ print("Hello, World!")
     |                                    | text = 'She said "Hello"'   # 올바름 |
 
 
-
 * 문자열과 숫자 연산
+  - ![image](https://github.com/user-attachments/assets/4f9c93e0-0f7a-43a2-832c-103f43b6275c)
   - | 잘못된 예 | 올바른 예 |
     |-----------|-----------|
     | age = 25                                  | age = 25
