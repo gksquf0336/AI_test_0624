@@ -4,7 +4,7 @@
 2. [Python3](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#2-about-python3)
 3. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)
 4. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
-5. [OpenCV]()
+5. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
 6. [CNN(Convolution Neural Network)]()
 
 ## 1. About GitHub, Markdown, Colab
