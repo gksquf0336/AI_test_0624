@@ -268,14 +268,13 @@ print("Hello, World!")
 
 
 
-# 문자열과 숫자 연산
-# 잘못된 경우
-# 올바른 경우
-age = 25
-print("나이: " + age)   # 에러! 타입 불일치
-age = 25
-print("나이: " + str(age))   # 올바름
-print(f"나이: {age}")        # 올바름 (f-string)
+* 문자열과 숫자 연산
+  - | 잘못된 예 | 올바른 예 |
+    |-----------|-----------|
+    | age = 25                                  | age = 25
+    | print("나이: " + age)   # 에러! 타입 불일치 | print("나이: " + str(age))   # 올바름 |
+    |                                           | print(f"나이: {age}")        # 올바름 (f-string) |
+
 
 
 
