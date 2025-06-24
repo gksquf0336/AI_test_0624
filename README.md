@@ -1,6 +1,11 @@
 # 📘 AI 학습 정리
 ## 목차
 1. [GitHub, Markdown, Colab](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#1-about-github-markdown-colab)
+2. [Python3]()
+3. [data structure / data sciencs]()
+4. [Machine Learning]()
+5. [OpenCV]()
+6. [CNN(Convolution Neural Network)]()
 
 ## 1. About GitHub, Markdown, Colab
 - [GitHub 사용법](#github-사용법)
@@ -175,7 +180,7 @@ uploaded = files.upload()
 - [이미지 처리](./image_test.md)
 
   
-## 6. CNN(Convolution Neural Network
+## 6. CNN(Convolution Neural Network)
 - [CNN_Basic](./CNN_basic.md)
 - [CNN_자율주행 관련 코드](./cnn_test.md)
 
