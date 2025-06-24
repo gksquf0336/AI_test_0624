@@ -240,9 +240,7 @@ print("Hello, World!")
 
 | 잘못된 예 | 올바른 예 |
 |-----------|-----------|
-| if True:
-print("Hello")  # 들여쓰기 없음 - 에러!| if True:
-**1234** print("Hello")  # 스페이스 4개, 4칸띄기기|
+| if True: print("Hello")  # 들여쓰기 없음 - 에러!| if True:   **1234** print("Hello")  # 스페이스 4개, 4칸띄기기|
 
 
 대소문자 구분
