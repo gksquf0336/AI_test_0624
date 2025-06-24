@@ -1,5 +1,5 @@
 # 📘 AI 학습 정리
-## 목차
+## 전체 목차
 1. [GitHub, Markdown, Colab](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#1-about-github-markdown-colab)
 2. [Python3](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#2-about-python3)
 3. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)
@@ -166,6 +166,13 @@ uploaded = files.upload()
 
 ## 2. About Python3
 - [Python basic](./docs/python3.md)
+- [w3schools](https://www.w3schools.com/python/default.asp)
+- [6/23/월 진행 사항](https://github.com/gksquf0336/ChungnamWorkForceDevelopCenter_AI_Python/blob/main/0623_colab_test1.ipynb)
+### ✅ 파이썬 기초
+#### 맛보기 기초 코드
+```
+print("Hello, World!")
+```
 
 ## 3.  data structure / data sciencs
 
