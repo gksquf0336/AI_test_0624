@@ -169,6 +169,12 @@ uploaded = files.upload()
 - [w3schools](https://www.w3schools.com/python/default.asp)
 - [6/23/월 진행 사항](https://github.com/gksquf0336/ChungnamWorkForceDevelopCenter_AI_Python/blob/main/0623_colab_test1.ipynb)
 ### ✅ 파이썬 기초
+#### 🐍 Python 3 개념
+> Python 3는 파이썬 프로그래밍 언어의 최신 버전 계열로, 문법이 간단하고 가독성이 좋아 초보자부터 전문가까지 폭넓게 사용되는 언어이다.
+- 초판 출시: 2008년
+- Python 2와의 호환성 없음
+- 현재 대부분의 프로젝트는 Python 3 사용
+
 #### 맛보기 기초 코드
 ```
 print("Hello, World!")
