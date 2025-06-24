@@ -200,14 +200,14 @@ print("Hello, World!")
 - Python에는 기본적으로 다음 범주에 속하는 데이터 유형이 내장되어 있다.  
 | 유형          | 종류                   |
 |--------------|-------------------------|
-| 텍스트 유형   | `str`                   |
+| 텍스트 유형   | `str` |
 | 숫자형        | `int`,`float`,`complex` |
-| 시퀀스 유형   | `list`, `tuple`, `range`|
-| 매핑 유형    | `dict`                   |
-| 세트 유형    | `set`, `frozenset`       |
-| 부울 유형    | `bool`                   |
-| 이진 유형    | `bytes`, `bytearray`, `memoryview`|
-| 유형 없음    | `	NoneType`                   |
+| 시퀀스 유형   | `list`, `tuple`, `range` |
+| 매핑 유형    | `dict` |
+| 세트 유형    | `set`, `frozenset` |
+| 부울 유형    | `bool` |
+| 이진 유형    | `bytes`, `bytearray`, `memoryview` |
+| 유형 없음    | `	NoneType` |
 
 
 3. 변수 선언
