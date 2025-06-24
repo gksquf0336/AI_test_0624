@@ -83,6 +83,17 @@ print("Hello, Markdown!")
 ## Colab 기초  
 ![image](https://github.com/user-attachments/assets/13ee0e41-ae11-4228-972f-3ae556d19739)
 
+### ✅ Colab 개념
+**Google Colab (코랩)**은 파이썬 코드를 클라우드에서 실행할 수 있는 무료 서비스로, 특히 데이터 분석, 머신러닝, 딥러닝을 배우고 실습하는 데 매우 적합하다.
+
+#### Google Colab이란?
+**Google Colaboratory(줄여서 Colab)**는 웹 브라우저에서 Python 코드를 실행하고, GPU 자원을 무료로 사용할 수 있는 Jupyter Notebook 기반의 클라우드 서비스다.
+#### 이용되는 분야
+- 📊 데이터 분석 실습 (pandas, matplotlib 등)
+- 🧠 머신러닝/딥러닝 모델 학습 (TensorFlow, PyTorch 등)
+- 📝 논문 코드 테스트, Kaggle 노트북 공유
+- 👩‍🏫 교육용 실습 환경 (학생들에게 설치 없이 환경 제공 가능)
+
 
 ### ✅ Colab 기본 기능
 | 기능                | 설명                                                                 | 예시 / 단축키                                                  |
@@ -119,4 +130,50 @@ uploaded = files.upload()
 !pip install pandas
 ```
 
+## 2. About Python3
+- [Python basic](./docs/python3.md)
 
+## 3.  data structure / data sciencs
+
+- [데이터 구조 개요](./data_structures.md)
+- [Pandas](./pandas.md)
+- [Numpy](./numpy.md)
+- [Matplotlib](./Matplotlib.md)
+
+## 4. Machine Learning
+
+- [Machine Learning Basic](./ml_basic.md)
+- [모델 훈련 및 평가](./ml_test.md)
+
+## 5. OpenCV
+
+- [OpenCV Basic](./OpenCV_basic.md)
+- [이미지 처리](./image_test.md)
+
+  
+## 6. CNN(Convolution Neural Network
+- [CNN_Basic](./CNN_basic.md)
+- [CNN_자율주행 관련 코드](./cnn_test.md)
+
+## 7. Ultralytics
+- [Ultralytics_Basic](./Ultralytics_basic.md)
+- [YOLOv8](./YOLOv8_test.md)
+- [YOLOv12](./YOLOv12_test.md)
+  
+## 8. TensorRT vs PyTorch 
+- [PyTorch_Basic](./PyTorch_basic.md)
+- [TensorRT](./TensorRT_test.md)
+- [YOLOv12](./YOLOv12_test.md)
+
+## 9. TAO Toolkit on RunPod
+- [TAO_사용법](.TAO_install.md)
+- [TAO_Toolkit](.TAO_Toolkit.md)
+
+## 10. 칼만필터, CARLA, 경로 알고리즘
+- [kalman](.kalman.md)
+- [CARLA_simulator](.CARLA.md)
+
+## 11. ADAS & (ADAS TensorRT vs PyTorch)
+- [adas_basic](.adas_basic.md)
+- [TensorRT vs PyTorch 비교](.vs.md)
+- 
