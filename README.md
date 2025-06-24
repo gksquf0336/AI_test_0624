@@ -44,13 +44,29 @@
 
 ## Markdown 문법
 ### ✅ 기본 문법 요약
+| **목적**           | **문법 예시**                                                             | **결과**                                                                               |
+|------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| 제목               | `# 제목1` <br> `## 제목2` <br> `### 제목3`                                  | 제목1 <br> 제목2 <br> 제목3                                                                |
+| 굵은 글씨            | `**굵게**` 또는 `__굵게__`                                                    | **굵게**                                                                                 |
+| 기울임              | `*기울임*` 또는 `_기울임_`                                                    | *기울임*                                                                                |
+| 취소선              | `~~취소선~~`                                                              | ~~취소선~~                                                                              |
+| 인용문              | `> 인용문`                                                                 | > 인용문                                                                                |
+| 코드 (인라인)         | `` `코드` ``                                                              | `코드`                                                                                 |
+| 코드 블록            | \`\`\`<br>코드<br>\`\`\`                                                    | ```<br>코드<br>``` (실제 코드 블록으로 렌더링됨)                                           |
+| 링크               | `[텍스트](https://example.com)`                                          | [텍스트](https://example.com)                                                           |
+| 이미지              | `![대체 텍스트](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)` | ![logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)     |
+| 리스트 (순서 없음)     | `- 아이템` <br> `* 아이템` <br> `+ 아이템`                                 | - 아이템<br>* 아이템<br>+ 아이템                                                        |
+| 리스트 (순서 있음)     | `1. 첫번째` <br> `2. 두번째`                                               | 1. 첫번째<br>2. 두번째                                                                  |
+| 체크리스트           | `- [ ] 할 일` <br> `- [x] 완료됨`                                         | - [ ] 할 일<br>- [x] 완료됨                                                             |
+| 수평선              | `---` 또는 `***`                                                         | ---                                                                                   |
+| 테이블              | `\| 헤더1 \| 헤더2 \|`<br>`\|---\|---\|`<br>`\| 내용1 \| 내용2 \|`             | 표 생성됨                                                                                |
 
 ### 코드 블록 예시
 ```python
 print("Hello, Markdown!")
 ```
 
-### 📦 기타 꿀팁
+### ✅ 기타 꿀팁
 ```
 - README에 줄바꿈을 하려면 줄 끝에 공백 2칸 입력 (Shift + Enter 아님!)
 - 이모지도 지원: :smile:, :rocket:, :fire: 등
@@ -58,11 +74,9 @@ print("Hello, Markdown!")
 - HTML 태그 일부 사용 가능: <br>, <img>, <details>, <summary> 등
 ```
 
-### 📚 참고 링크
-- GitHub 공식 마크다운 가이드:  
-  [github 공식 사이트](https://guides.github.com/features/mastering-markdown/)
-- 마크다운 실시간 편집기:  
-  [편집기](https://dillinger.io/)
+### ✅ 참고 링크
+- GitHub 공식 마크다운 가이드: [github 공식 사이트](https://guides.github.com/features/mastering-markdown/)
+- 마크다운 실시간 편집기: [편집기](https://dillinger.io/)
 
 ## Colab 기초  
 (여기에 Colab 내용 작성)
