@@ -43,8 +43,19 @@
 ![create_repository](https://github.com/user-attachments/assets/8c2eb16b-8dfc-465a-88cd-d35770d12df0)
 
 ## Markdown 문법
+### ✅ 기본 문법 요약
 
-(여기에 마크다운 내용 작성)
+### 📦 기타 꿀팁
+- README에 줄바꿈을 하려면 줄 끝에 공백 2칸 입력 (Shift + Enter 아님!)
+- 이모지도 지원: :smile:, :rocket:, :fire: 등
+   + 예: 🚀🔥😊 → :rocket: :fire: :blush:
+- HTML 태그 일부 사용 가능: <br>, <img>, <details>, <summary> 등
+
+### 📚 참고 링크
+- GitHub 공식 마크다운 가이드:
+  [github 공식 사이트](https://guides.github.com/features/mastering-markdown/)
+- 마크다운 실시간 편집기:
+  [편집기](https://dillinger.io/)
 
 ## Colab 기초  
 (여기에 Colab 내용 작성)
