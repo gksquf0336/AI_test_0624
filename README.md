@@ -8,7 +8,7 @@
 6. [CNN(Convolution Neural Network)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#6-cnnconvolution-neural-network)
 7. [Ultralytics](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#6-cnnconvolution-neural-network)
 8. [TensorRT vs PyTorch](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#8-tensorrt-vs-pytorch)
-9. [TAO Toolkit on RunPod]()
+9. [TAO Toolkit on RunPod](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#9-tao-toolkit-on-runpod)
 10. [칼만필터, CARLA, 경로 알고리즘]()
 
 ## 1. About GitHub, Markdown, Colab
