@@ -1,6 +1,6 @@
 # 📘 AI 학습 정리
 ###### 충남인재개발원 주관 / 장성숙 교수님
-[참고 영상 자료](https://www.youtube.com/watch?v=ess9hN9yznc)  
+[교수님 참고 영상 자료](https://www.youtube.com/watch?v=ess9hN9yznc)  
 <br>
 ## 전체 목차
 1. [GitHub, Markdown, Colab](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#1-about-github-markdown-colab)
