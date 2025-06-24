@@ -192,8 +192,8 @@ uploaded = files.upload()
 ```
 print("Hello, World!")
 ```
-1. Python 
-2. 자료형
+
+####자료형
 ##### 내장 데이터 유형
 - 프로그래밍에서 데이터 유형은 중요한 개념이다.
 - 변수는 다양한 유형의 데이터를 저장할 수 있으며, 다양한 유형은 다양한 작업을 수행할 수 있습니다.
@@ -211,7 +211,7 @@ print("Hello, World!")
 | 유형 없음     | `NoneType`                                     |
 
 
-3. 변수 
+#### 변수 
 - 변수는 데이터 값을 저장하는 컨테이너
 - Python에는 변수를 선언하는 명령이 없다.
 - 변수는 처음으로 값을 할당하는 순간 생성
@@ -231,7 +231,7 @@ print("Hello, World!")
          + ❌ **예약어 (예: for, if, class, def 등)**는 변수명으로 사용할 수 없음
          + 대소문자 구분함 (score, Score, SCORE는 모두 다른 변수)  
 
-4. 코딩 시 주의할 점
+#### 코딩 시 주의할 점
 * 문법 관련 주의사항
    - 들여쓰기 (Indentation)
       + Python은 들여쓰기로 코드 블록을 구분합니다
@@ -323,7 +323,6 @@ print("Hello, World!")
 ![image](https://github.com/user-attachments/assets/4e030711-51ed-4558-84b2-13fb25f9c9c2)
 * 간단한 조건문 예시
 * 사람의 키를 입력 받고 특정 값과 비교한 후 출력
-* 
  
 ## 3.  data structure / data sciencs
 
