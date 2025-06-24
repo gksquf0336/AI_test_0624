@@ -230,11 +230,7 @@ print("Hello, World!")
              + 이후에 숫자(0–9) 포함 가능
              + ❌ 공백, 특수문자, 하이픈(-) 포함 불가
              + ❌ **예약어 (예: for, if, class, def 등)**는 변수명으로 사용할 수 없음
-             + 대소문자 구분함 (score, Score, SCORE는 모두 다른 변수)
-
-
-     + 예시
-     + 
+             + 대소문자 구분함 (score, Score, SCORE는 모두 다른 변수)  
 ```
 x = 5
 y = "John"
