@@ -5,7 +5,7 @@
 3. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)
 4. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
 5. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
-6. [CNN(Convolution Neural Network)]()
+6. [CNN(Convolution Neural Network)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#6-cnnconvolution-neural-network)
 
 ## 1. About GitHub, Markdown, Colab
 - [GitHub 사용법](#github-사용법)
