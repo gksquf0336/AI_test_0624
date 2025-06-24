@@ -84,16 +84,21 @@ print("Hello, Markdown!")
 ![image](https://github.com/user-attachments/assets/13ee0e41-ae11-4228-972f-3ae556d19739)
 
 ### ✅ Colab 개념
-**Google Colab (코랩)**은 파이썬 코드를 클라우드에서 실행할 수 있는 무료 서비스로, 특히 데이터 분석, 머신러닝, 딥러닝을 배우고 실습하는 데 매우 적합하다.
+Google Colab (코랩)은 파이썬 코드를 클라우드에서 실행할 수 있는 무료 서비스로, 특히 데이터 분석, 머신러닝, 딥러닝을 배우고 실습하는 데 매우 적합하다.
 
 #### Google Colab이란?
-**Google Colaboratory(줄여서 Colab)**는 웹 브라우저에서 Python 코드를 실행하고, GPU 자원을 무료로 사용할 수 있는 Jupyter Notebook 기반의 클라우드 서비스다.
+Google Colaboratory(줄여서 Colab)는 웹 브라우저에서 Python 코드를 실행하고, GPU 자원을 무료로 사용할 수 있는 Jupyter Notebook 기반의 클라우드 서비스다.
 #### 이용되는 분야
 - 📊 데이터 분석 실습 (pandas, matplotlib 등)
 - 🧠 머신러닝/딥러닝 모델 학습 (TensorFlow, PyTorch 등)
 - 📝 논문 코드 테스트, Kaggle 노트북 공유
 - 👩‍🏫 교육용 실습 환경 (학생들에게 설치 없이 환경 제공 가능)
 
+#### ✅ 시작하는 방법
+1. https://colab.research.google.com 접속
+2. Google 계정으로 로그인
+3. 새 노트북 만들기 (+ 새 노트북)
+4. 코드 셀에 파이썬 코드 입력 후 Shift + Enter로 실행
 
 ### ✅ Colab 기본 기능
 | 기능                | 설명                                                                 | 예시 / 단축키                                                  |
