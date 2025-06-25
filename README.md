@@ -23,7 +23,7 @@
    * [def (함수 정의)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#def-%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98)
    * [class (클래스 정의)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#def-%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98)
    * [continue (다음 반복으로)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#continue-%EB%8B%A4%EC%9D%8C-%EB%B0%98%EB%B3%B5%EC%9C%BC%EB%A1%9C)
-   * [pass (아무것도 하지 않음)]()
+   * [pass (아무것도 하지 않음)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#pass-%EC%95%84%EB%AC%B4%EA%B2%83%EB%8F%84-%ED%95%98%EC%A7%80-%EC%95%8A%EC%9D%8C)
 4. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)
 5. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
 6. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
