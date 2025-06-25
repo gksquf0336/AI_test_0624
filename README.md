@@ -410,7 +410,30 @@ def detect_lane_lines(img, roi_vertices, canny_low, canny_high, hough_threshold)
   + canny_low - Canny 엣지 검출의 하위 임계값
   + canny_high - Canny 엣지 검출의 상위 임계값
   + hough_threshold - Hough 변환 임계값
-- Returns: = 함수의 반환값을 설명하는 섹션
+- Returns: = 함수의 반환값을 설명하는 섹션  
+
+```
+def filter_by_class(boxes, conf, cls, target_classes):
+    filtered_boxes = []
+    filtered_conf = []
+    for i, c in enumerate(cls):
+        if c in target_classes:
+            filtered_boxes.append(boxes[i])
+            filtered_conf.append(conf[i])
+    return filtered_boxes, filtered_conf
+```
+- "특정 클래스의 객체만 골라내는 필터 함수"  우리가 원하는 물체만 골라내는 역할을 한다.
+- 함수 인자 설명
+  + boxes: 각 물체의 위치 정보 (사각형 좌표들)
+  + conf: 각 물체의 신뢰도 (얼마나 확실한지 0~1 점수)
+  + cls: 각 물체의 종류 (예: 'car', 'person', 'dog')
+  + target_classes: 우리가 찾고 싶은 물체 종류들
+
+##### 단계별 동작 과정
+* 1단계: 빈 리스트 준비
+  - filtered_boxes = []  # 선택된 물체들의 위치를 저장할 빈 통
+  - filtered_conf = []   # 선택된 물체들의 신뢰도를 저장할 빈 통
+  - for i, c in enumerate(cls):에서 하나씩 검사
 
 ## 3.  data structure / data sciencs
 
