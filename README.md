@@ -10,7 +10,7 @@
    * [자료형](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%9E%90%EB%A3%8C%ED%98%95)
    * [변수](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B3%80%EC%88%98)
    * [코딩 시 주의할 점](http://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%BD%94%EB%94%A9-%EC%8B%9C-%EC%A3%BC%EC%9D%98%ED%95%A0-%EC%A0%90)
-   * [if문, elif문 예시]()
+   * [if문, elif문 예시](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#if%EB%AC%B8-elif%EB%AC%B8-%EC%98%88%EC%8B%9C)
    * [반복문 while, for](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B0%98%EB%B3%B5%EB%AC%B8-while-for)
 4. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
 5. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
@@ -358,7 +358,56 @@ for result in results:
 # 좌표 배열 순회
 for i, (x1, y1, x2, y2) in enumerate(boxes):
     cv2.rectangle(img, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
+
+# range로 인덱스 접근
+for i in range(len(boxes)):
+    if conf[i] > 0.5:
+        # 처리 로직
+        pass
 ```
+
+#### 배열 처리
+* 기본 배열 조작
+```
+# 빈 리스트 생성
+detections = []
+track_history = []
+
+# 배열에 추가
+detections.append([x1, y1, x2, y2, conf, cls])
+track_history.append((cx, cy))
+
+# 배열 길이 제한 (최근 N개만 유지)
+if len(track_history) > 30:
+    track_history.pop(0)
+
+# 배열 슬라이싱
+recent_points = track_history[-10:]  # 최근 10개
+```
+#### 함수 정의
+* 기본 함수들
+```
+def detect_lane_lines(img, roi_vertices, canny_low, canny_high, hough_threshold):
+    """
+    차선 검출 함수
+    
+    Args: # 여기서 함수가 받는 5개 인자들을 설명
+        img: 입력 이미지
+        roi_vertices: 관심 영역 좌표 [(x1,y1), (x2,y2), ...]
+        canny_low: Canny 엣지 검출 하위 임계값
+        canny_high: Canny 엣지 검출 상위 임계값  
+        hough_threshold: Hough 변환 임계값
+    
+    Returns:
+```
+- Args: = 함수의 매개변수(인자)들을 설명하는 섹션
+- 5개 인자의 역할:
+  + img - 차선을 검출할 입력 이미지
+  + roi_vertices - 관심 영역(ROI) 좌표들
+  + canny_low - Canny 엣지 검출의 하위 임계값
+  + canny_high - Canny 엣지 검출의 상위 임계값
+  + hough_threshold - Hough 변환 임계값
+- Returns: = 함수의 반환값을 설명하는 섹션
 
 ## 3.  data structure / data sciencs
 
