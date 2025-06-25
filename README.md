@@ -11,7 +11,7 @@
    * [변수](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B3%80%EC%88%98)
    * [코딩 시 주의할 점](http://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%BD%94%EB%94%A9-%EC%8B%9C-%EC%A3%BC%EC%9D%98%ED%95%A0-%EC%A0%90)
    * [if문, elif문 예시]()
-   * [반복문 while, for]()
+   * [반복문 while, for](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B0%98%EB%B3%B5%EB%AC%B8-while-for)
 4. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
 5. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
 6. [CNN(Convolution Neural Network)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#6-cnnconvolution-neural-network)
