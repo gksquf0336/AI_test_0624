@@ -338,6 +338,8 @@ print("Hello, World!")
 * 사람의 키를 입력 받고 특정 값과 비교한 후 출력
 
 #### 반복문 (while, for)
+[for 문 이해 애니메이션](https://claude.ai/public/artifacts/43d99aef-05fa-443d-ab78-065d9606a917)
+
 * 실시간 비디오 처리 while 루프
 ```
 # 기본 비디오 처리 루프
