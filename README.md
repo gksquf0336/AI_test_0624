@@ -9,6 +9,7 @@
      - [6/23/월 기초 진행 사항](https://github.com/gksquf0336/AI_test_0624/blob/main/0623_colab_test1.ipynb)
      - [6/24/화 자율주행 예시 코드](https://github.com/gksquf0336/AI_test_0624/blob/main/0624_colab_test2.ipynb)
      - [6/25/수 class&def](https://github.com/gksquf0336/AI_test_0624/blob/main/0625_Python3_class%26def.ipynb)
+     - [6/25/수 for&while](https://github.com/gksquf0336/AI_test_0624/blob/main/0625_for%26while.ipynb)
    * [주요 특징](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%A3%BC%EC%9A%94-%ED%8A%B9%EC%A7%95-1)
    * [자료형](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%9E%90%EB%A3%8C%ED%98%95)
    * [변수](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B3%80%EC%88%98)
