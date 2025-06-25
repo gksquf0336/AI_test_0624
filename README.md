@@ -5,7 +5,7 @@
 ## 전체 목차
 1. [GitHub, Markdown, Colab](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#1-about-github-markdown-colab)
 2. [Python3](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#2-about-python3)
-3. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)
+3. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)  * [주요 특징](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%A3%BC%EC%9A%94-%ED%8A%B9%EC%A7%95-1)
 4. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
 5. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
 6. [CNN(Convolution Neural Network)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#6-cnnconvolution-neural-network)
