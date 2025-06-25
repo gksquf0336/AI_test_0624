@@ -9,7 +9,7 @@
    * [주요 특징](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%A3%BC%EC%9A%94-%ED%8A%B9%EC%A7%95-1)
    * [자료형](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%9E%90%EB%A3%8C%ED%98%95)
    * [변수](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B3%80%EC%88%98)
-   * [코딩 시 주의할 점]()
+   * [코딩 시 주의할 점](http://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%BD%94%EB%94%A9-%EC%8B%9C-%EC%A3%BC%EC%9D%98%ED%95%A0-%EC%A0%90)
    * []()
 4. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
 5. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
