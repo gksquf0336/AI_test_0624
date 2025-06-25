@@ -10,7 +10,8 @@
    * [자료형](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%9E%90%EB%A3%8C%ED%98%95)
    * [변수](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B3%80%EC%88%98)
    * [코딩 시 주의할 점](http://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%BD%94%EB%94%A9-%EC%8B%9C-%EC%A3%BC%EC%9D%98%ED%95%A0-%EC%A0%90)
-   * []()
+   * [if문, elif문 예시]()
+   * [반복문 while, for]()
 4. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
 5. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
 6. [CNN(Convolution Neural Network)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#6-cnnconvolution-neural-network)
@@ -328,7 +329,38 @@ print("Hello, World!")
 ![image](https://github.com/user-attachments/assets/4e030711-51ed-4558-84b2-13fb25f9c9c2)
 * 간단한 조건문 예시
 * 사람의 키를 입력 받고 특정 값과 비교한 후 출력
- 
+
+#### 반복문 (while, for)
+* 실시간 비디오 처리 while 루프
+  ```
+  # 기본 비디오 처리 루프
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        break
+    
+    results = model(frame)
+    cv2.imshow('frame', frame)
+    
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+  ```
+* 탐지 결과 처리 for 루프
+  ```
+  # 각 탐지 결과 순회
+  for result in results:
+      boxes = result.boxes
+      for i, box in enumerate(boxes):
+          x1, y1, x2, y2 = box.xyxy[0]
+          conf = box.conf[0]
+          cls = box.cls[0]
+
+
+  # 좌표 배열 순회
+  for i, (x1, y1, x2, y2) in enumerate(boxes):
+      cv2.rectangle(img, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
+  ```
+
 ## 3.  data structure / data sciencs
 
 - [데이터 구조 개요](./data_structures.md)
