@@ -332,34 +332,33 @@ print("Hello, World!")
 
 #### 반복문 (while, for)
 * 실시간 비디오 처리 while 루프
-  ```
-  # 기본 비디오 처리 루프
+```
+# 기본 비디오 처리 루프
 while True:
-    ret, frame = cap.read()
-    if not ret:
-        break
+  ret, frame = cap.read()
+  if not ret:
+      break
     
-    results = model(frame)
-    cv2.imshow('frame', frame)
+  results = model(frame)
+  cv2.imshow('frame', frame)
     
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-  ```
+  if cv2.waitKey(1) & 0xFF == ord('q'):
+      break
+```
 * 탐지 결과 처리 for 루프
-  ```
-  # 각 탐지 결과 순회
-  for result in results:
-      boxes = result.boxes
-      for i, box in enumerate(boxes):
-          x1, y1, x2, y2 = box.xyxy[0]
-          conf = box.conf[0]
-          cls = box.cls[0]
+```
+# 각 탐지 결과 순회
+for result in results:
+    boxes = result.boxes
+    for i, box in enumerate(boxes):
+        x1, y1, x2, y2 = box.xyxy[0]
+        conf = box.conf[0]
+        cls = box.cls[0]
 
-
-  # 좌표 배열 순회
-  for i, (x1, y1, x2, y2) in enumerate(boxes):
-      cv2.rectangle(img, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-  ```
+# 좌표 배열 순회
+for i, (x1, y1, x2, y2) in enumerate(boxes):
+    cv2.rectangle(img, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
+```
 
 ## 3.  data structure / data sciencs
 
