@@ -7,7 +7,7 @@
 2. [Python3](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#2-about-python3)
 3. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)
    * [주요 특징](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%A3%BC%EC%9A%94-%ED%8A%B9%EC%A7%95-1)
-   * [자료형]()
+   * [자료형](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%9E%90%EB%A3%8C%ED%98%95)
    * [변수]()
    * [코딩 시 주의할 점]()
    * []()
