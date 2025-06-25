@@ -18,7 +18,10 @@
    * [반복문 while, for](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B0%98%EB%B3%B5%EB%AC%B8-while-for)
    * [배열 처리](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B0%B0%EC%97%B4-%EC%B2%98%EB%A6%AC)
    * [함수 정의](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98)
-   * []()
+   * [조건문 활용]()
+   * [예외 처리]()
+   * [class (클래스 정의)]()
+   * [continue (다음 반복으로)]()
 4. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)
 5. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
 6. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
@@ -441,6 +444,123 @@ def filter_by_class(boxes, conf, cls, target_classes):
   - filtered_boxes = []  # 선택된 물체들의 위치를 저장할 빈 통
   - filtered_conf = []   # 선택된 물체들의 신뢰도를 저장할 빈 통
   - for i, c in enumerate(cls):에서 하나씩 검사
+    
+##### 클래스 정의
+```
+class VehicleTracker:
+    def __init__(self):
+        self.tracks = {}
+        self.next_id = 0
+    
+    def update(self, detections):
+        for detection in detections:
+            track_id = self.assign_track(detection)
+            self.tracks[track_id] = detection
+    
+    def assign_track(self, detection):
+        # 트래킹 로직
+        return self.next_id
+```
+
+#### 조건문 활용
+* 다중 조건 처리
+```
+# 객체 타입별 처리
+if cls == 0:  # person
+    color = (0, 255, 0)
+elif cls == 2:  # car
+    color = (255, 0, 0)
+elif cls == 3:  # motorcycle
+    color = (0, 0, 255)
+else:
+    color = (128, 128, 128)
+
+# 영역별 처리
+if center_x < img.shape[1] // 3:
+    zone = "left"
+elif center_x > img.shape[1] * 2 // 3:
+    zone = "right"
+else:
+    zone = "center"
+
+# 복합 조건
+if conf > 0.7 and cls in [0, 2, 3] and y2 > img.shape[0] * 0.5:
+    # 높은 신뢰도 + 특정 클래스 + 화면 하단
+    important_objects.append([x1, y1, x2, y2])
+```
+
+#### 예외 처리
+```
+# 안전한 배열 접근
+if len(boxes) > 0:
+    for box in boxes:
+        # 처리 로직
+        pass
+else:
+    print("No detections")
+```
+
+###### 자율주행에서 자주 사용하는 Python 핵심 문법들을 실제 사용 예시
+#### def (함수 정의)
+* 탐지 관련 함수들
+```
+def calculate_center(x1, y1, x2, y2):
+    return int((x1 + x2) / 2), int((y1 + y2) / 2)
+
+def is_in_danger_zone(cx, cy, img_width, img_height):
+    return cy > img_height * 0.7 and cx > img_width * 0.3 and cx < img_width * 0.7
+```
+#### class (클래스 정의)
+* 차량 추적 클래스
+```
+class VehicleTracker:
+    def __init__(self):
+        self.tracks = {}
+        self.next_id = 0
+        self.max_disappeared = 10
+  def update_tracks(self, detections):
+        for detection in detections:
+            track_id = self.find_closest_track(detection)
+            if track_id is None:
+                self.create_new_track(detection)
+            else:
+                self.update_existing_track(track_id, detection)
+```
+* 자율주행 메인 클래스
+```
+def process_frame(self, frame):
+        detections = self.detect_objects(frame)
+        self.tracker.update_tracks(detections)
+        decision = self.make_driving_decision(detections)
+        return decision
+```
+```
+ def make_driving_decision(self, detections):
+        if self.obstacle_ahead(detections):
+            return "brake"
+        elif self.lane_change_needed(detections):
+            return "change_lane"
+        else:
+            return "continue"
+```
+#### continue (다음 반복으로)
+* 조건에 맞지 않는 프레임 건너뛰기
+```
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        continue  # 프레임 읽기 실패시 다음 프레임으로
+
+    # 프레임이 너무 어두우면 건너뛰기
+    if np.mean(frame) < 50:
+        continue
+
+    # 탐지 결과가 없으면 건너뛰기
+    results = model(frame)
+    if len(results[0].boxes) == 0:
+        continue
+```
+
 
 ## 3.  data structure / data sciencs
 
