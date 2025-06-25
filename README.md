@@ -13,6 +13,7 @@
    * [if문, elif문 예시](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#if%EB%AC%B8-elif%EB%AC%B8-%EC%98%88%EC%8B%9C)
    * [반복문 while, for](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B0%98%EB%B3%B5%EB%AC%B8-while-for)
    * [배열 처리](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EB%B0%B0%EC%97%B4-%EC%B2%98%EB%A6%AC)
+   * [함수 정의](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98)
    * []()
 4. [Machine Learning](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#4-machine-learning)
 5. [OpenCV](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#5-opencv)
