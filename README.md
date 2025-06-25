@@ -20,6 +20,7 @@
    * [함수 정의](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98)
    * [조건문 활용](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%A1%B0%EA%B1%B4%EB%AC%B8-%ED%99%9C%EC%9A%A9)
    * [예외 처리](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC)
+   * [def (함수 정의)](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#def-%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98)
    * [class (클래스 정의)]()
    * [continue (다음 반복으로)]()
 4. [data structure / data sciencs](https://github.com/gksquf0336/AI_test_0624/blob/main/README.md#3--data-structure--data-sciencs)
