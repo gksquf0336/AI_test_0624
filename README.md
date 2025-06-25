@@ -561,8 +561,60 @@ while True:
     results = model(frame)
     if len(results[0].boxes) == 0:
         continue
-```
 
+    # 정상적인 처리
+    process_detections(results)
+```
+* 신뢰도 낮은 탐지 건너뛰기
+```
+for i, detection in enumerate(detections):
+    confidence = detection.conf
+    if confidence < 0.5:
+        continue  # 신뢰도가 낮으면 건너뛰기
+
+    # 관심 없는 클래스 건너뛰기
+    if detection.cls not in [0, 2, 3]:  # person, car, motorcycle만
+        continue
+
+    # 화면 밖 객체 건너뛰기
+    if detection.x1 < 0 or detection.y1 < 0:
+        continue
+    
+    process_valid_detection(detection)
+```
+#### pass (아무것도 하지 않음)
+* 미구현 함수 플레이스홀더
+```
+def emergency_brake():
+    # TODO: 긴급 제동 로직 구현
+    pass
+
+def lane_change_left():
+    # TODO: 좌측 차선 변경 로직
+    pass
+
+def calculate_safe_distance():
+    # TODO: 안전거리 계산 로직
+    pass
+```
+* 조건부 처리에서 빈 블록
+```
+for detection in detections:
+    if detection.cls == 0:  # person
+        handle_pedestrian(detection)
+    elif detection.cls == 2:  # car
+        handle_vehicle(detection)
+    elif detection.cls == 3:  # motorcycle
+        handle_motorcycle(detection)
+    else:
+        pass  # 다른 객체는 무시
+
+class LidarSensor(BaseSensor):
+    def read_data(self):
+        return self.get_lidar_data()
+    def calibrate(self):
+        pass  # 라이다는 자동 캘리브레이션
+```
 
 ## 3.  data structure / data sciencs
 
